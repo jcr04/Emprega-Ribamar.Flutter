@@ -38,19 +38,19 @@ class UserScreen extends StatelessWidget {
             const SizedBox(height: 10),
             CustomTextField(
               controller: _passwordController,
-              hintText: 'Password',
+              hintText: 'Senha',
               obscureText: true,
               validator: validatePassword,
             ),
             const SizedBox(height: 20),
             CustomButton(
-              text: 'LOG IN',
+              text: 'Entrar',
               onPressed: () {
                 // Login logic here
               },
             ),
             TextButton(
-              child: const Text('Forgot password?'),
+              child: const Text('Esqueceu sua Senha?'),
               onPressed: () {
                 // Password recovery logic here
               },
