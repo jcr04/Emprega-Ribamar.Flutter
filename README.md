@@ -12,4 +12,4 @@ Projeto em Fase de desenvolvimento.
 * Tela de cadastro
 * - ![Screenshot_2](https://github.com/jcr04/Emprega-Ribamar.Flutter/assets/70778525/97194662-a4e2-4b10-91bc-7cefad9c5901)
 * Tela Home
-* - ![Screenshot_4](https://github.com/jcr04/Emprega-Ribamar.Flutter/assets/70778525/13f3c1b2-033d-40e6-aece-ae0857fa8012)
+* - ![Screenshot_5](https://github.com/jcr04/Emprega-Ribamar.Flutter/assets/70778525/1cba38ec-1c37-4fd0-b385-7f3b7d8a156d)
