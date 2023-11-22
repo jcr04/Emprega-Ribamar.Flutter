@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen>
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: AnimatedLogoWidget(), // Seu widget de animação personalizado
+        child: AnimatedLogoWidget(),
       ),
     );
   }

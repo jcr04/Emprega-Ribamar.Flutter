@@ -18,13 +18,13 @@ class UserScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              padding: const EdgeInsets.all(8), // Padding around the logo
+              padding: const EdgeInsets.all(8),
               decoration: const BoxDecoration(
-                color: Colors.white, // White corners
-                shape: BoxShape.circle, // Circular shape
+                color: Colors.white,
+                shape: BoxShape.circle,
               ),
               child: Opacity(
-                opacity: 0.5, // Semi-transparency
+                opacity: 0.5,
                 child: Image.asset('lib/assets/imagens/logo-riba.png'),
               ),
             ),

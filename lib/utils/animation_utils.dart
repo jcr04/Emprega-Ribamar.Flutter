@@ -1,6 +1,5 @@
 import 'package:flutter/animation.dart';
 
-// Utilidade para gerenciar a animação de fade-in e fade-out
 AnimationController createAnimationController(TickerProvider vSync) {
   return AnimationController(
     duration: const Duration(seconds: 2),
