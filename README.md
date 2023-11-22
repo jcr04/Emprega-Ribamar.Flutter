@@ -9,3 +9,5 @@ Projeto em Fase de desenvolvimento.
 * Tela de Login Inicial
 * - ![Screenshot_14](https://github.com/jcr04/Emprega-Ribamar.Flutter/assets/70778525/14d44cb4-e799-4b17-8657-086bfbc7b14a)
 
+* Tela de cadastro
+* - ![Screenshot_2](https://github.com/jcr04/Emprega-Ribamar.Flutter/assets/70778525/97194662-a4e2-4b10-91bc-7cefad9c5901)
