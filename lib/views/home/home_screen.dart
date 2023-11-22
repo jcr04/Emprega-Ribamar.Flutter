@@ -1,3 +1,4 @@
+import 'package:emprega_ribamar/widgets/cardbuttom.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,41 +10,52 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Emprega Ribamar'),
       ),
-      body: ListView(
-        children: ListTile.divideTiles(
-          context: context,
-          tiles: [
-            ListTile(
-              leading: const Icon(Icons.search),
-              title: const Text('Buscar Vagas'),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: ListView(
+          children: <Widget>[
+            CardButton(
+              icon: Icons.search,
+              text: 'Buscar Vagas',
+              color: Colors.blue,
               onTap: () {
                 // Navegar para a tela de busca de vagas
               },
             ),
-            ListTile(
-              leading: const Icon(Icons.person),
-              title: const Text('Meu Perfil'),
+            CardButton(
+              icon: Icons.person,
+              text: 'Meu Perfil',
+              color: Colors.blue,
               onTap: () {
                 // Navegar para a tela do perfil do usuário
               },
             ),
-            ListTile(
-              leading: const Icon(Icons.business_center),
-              title: const Text('Criar Currículo'),
+            CardButton(
+              icon: Icons.business_center,
+              text: 'Criar Currículo',
+              color: Colors.blue,
               onTap: () {
                 // Navegar para a tela de criação de currículo
               },
             ),
-            ListTile(
-              leading: const Icon(Icons.info),
-              title: const Text('Informações sobre Benefícios'),
+            CardButton(
+              icon: Icons.info,
+              text: 'Informações sobre Benefícios',
+              color: Colors.blue,
               onTap: () {
                 // Navegar para a tela de informações sobre benefícios
               },
             ),
-            // Adicione mais opções conforme necessário
+            CardButton(
+              icon: Icons.work,
+              text: 'Oficinas de Capacitação',
+              color: Colors.red,
+              onTap: () {
+                // Navegar para a tela de oficinas de capacitação
+              },
+            ),
           ],
-        ).toList(),
+        ),
       ),
     );
   }
