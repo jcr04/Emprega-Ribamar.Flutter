@@ -1,5 +1,6 @@
 import 'package:emprega_ribamar/utils/custom_button.dart';
 import 'package:emprega_ribamar/views/auth/create_user_screen.dart';
+import 'package:emprega_ribamar/views/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:emprega_ribamar/widgets/custom_text_field.dart';
 import 'package:emprega_ribamar/utils/form_validators.dart';
@@ -43,10 +44,13 @@ class UserScreen extends StatelessWidget {
               obscureText: true,
               validator: validatePassword,
             ),
-            const SizedBox(height: 20),
             CustomButton(
               text: 'Entrar',
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                  builder: (context) => const HomeScreen(),
+                ));
+              },
             ),
             TextButton(
               child: const Text('Esqueceu sua Senha?'),
