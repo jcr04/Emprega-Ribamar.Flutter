@@ -110,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen>
         ),
         Text(
           'CPF: $cpf',
-          style: Theme.of(context).textTheme.bodyText1,
+          style: Theme.of(context).textTheme.bodyLarge,
           textAlign: TextAlign.center,
         ),
         Text(
